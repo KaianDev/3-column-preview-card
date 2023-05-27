@@ -1,0 +1,40 @@
+@media (max-width: 767.98px) {
+    .container {
+        display: block !important;
+        padding: 50px 20px;
+        margin-bottom: 50px !important;
+    }
+
+    .row {
+        height: 430px;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+        padding: 50px;
+    }
+
+    .suvs {
+        padding: 50px;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+        padding: 50px;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }
+
+    .btn-custom {
+        align-self: start !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .btn-custom {
+        align-self: center !important;
+        width: 80%;
+    }
+}
